@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+{% for message in check_result.matching_messages %}
+
+<h3>From: {{ message.index }}</h3>
+<h3>DateTime: {{ message.timestamp }}</h3>
+
+<p>
+
+{{ message.message }}
+
+</p>
+
+{% endfor %}
+
+
+</body>
+</html>
