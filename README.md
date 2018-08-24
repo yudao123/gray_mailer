@@ -5,4 +5,5 @@
 环境变量
 
 SMTP_LOGIN 配置用户用户名
+
 SMTP_PASSWORD 配置邮箱密码
